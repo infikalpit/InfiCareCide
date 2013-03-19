@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">exhibition</string>
+    <string name="menu_settings">Settings</string>
+    <string name="conheca_o_museu">Hello world!</string>
+    <string name="arte_naif">Hello world!</string>
+    <string name="horarios">Hello world!</string>
+    <string name="localizacao">Hello world!\nbvhgk\ncgfjygfhjyg</string>
+    <string name="descricao">Hello world!</string>
+    
+    <string-array  name="Languages">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+    </string-array>
+    
+</resources>
