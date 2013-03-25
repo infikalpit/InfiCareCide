@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Museum2</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="Button">Submit</string>
+   
+     <string name="discuss_about_header">Select Language</string>
+     
+     
+       
+       <string-array name="Languages">
+      
+       <item> ---Select Language---</item>
+        <item>Portugese</item>
+         <item>English</item>
+          <item>Franch</item>
+           <item>Spanish</item>
+       
+    </string-array>
+
+</resources>
