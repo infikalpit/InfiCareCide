@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Museum3</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="discuss_about_header">Select Language</string>
+     
+     
+       
+       <string-array name="Languages">
+      
+       <item> ---Select Language---</item>
+        <item>Portugese</item>
+         <item>English</item>
+          <item>Franch</item>
+           <item>Spanish</item>
+       
+    </string-array>
+    
+       
+        <string-array name="androidversion">
+        <item>Android 1.6</item>
+        <item>Android 2.1</item>
+        <item>Android 2.2</item>
+        <item>Android 2.3</item>
+        <item>Android 3.0</item>
+        <item>Android 4.0.1</item>
+    </string-array>
+    
+    <string-array name="androidversion_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+       
+
+</resources>
