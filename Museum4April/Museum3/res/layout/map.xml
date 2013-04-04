@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/topHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/topheader" />
+
+        <ImageView
+            android:id="@+id/Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15sp"
+            android:paddingTop="10sp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35sp"
+            android:paddingTop="4sp"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="280sp"
+            android:paddingTop="10sp" 
+            android:src="@drawable/icon"/>
+        
+    </RelativeLayout>
+				
+				 <LinearLayout android:id="@+id/zoom" 
+                   android:layout_width="wrap_content" 
+                   android:layout_height="wrap_content" 
+                   android:layout_alignParentBottom="true" 
+                  
+                 />
+
+				 <com.google.android.maps.MapView
+				     xmlns:android="http://schemas.android.com/apk/res/android"
+				     android:id="@+id/mapView"
+				     android:layout_width="fill_parent"
+				     android:layout_height="420sp"
+				     android:layout_alignParentBottom="true"
+				     android:layout_alignParentLeft="true"
+				     android:apiKey="0AKc1Wf4DffwllC2qiU9tpqGqb0R7NK7k1KLY4w"
+				     android:clickable="true"
+				     android:paddingTop="15sp" >
+				 </com.google.android.maps.MapView>
+
+</RelativeLayout>
