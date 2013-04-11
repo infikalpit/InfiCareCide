@@ -1,0 +1,135 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+
+    <ImageView
+        android:id="@+id/internal_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+      />
+        
+     
+    
+     <RelativeLayout
+        android:id="@+id/RLBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bar_back"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+        
+         <ImageView
+        android:id="@+id/imageSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/audio"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+         
+         <ImageView
+        android:id="@+id/imageDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/description"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+         
+         <ImageView
+        android:id="@+id/imageLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/like"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+         
+         </RelativeLayout>
+
+     <LinearLayout
+	        android:id="@+id/DescriptionLayout"
+	        android:layout_width="match_parent"
+		    android:layout_height="300dp"
+		    android:layout_above="@+id/RLBottom"
+		    android:orientation="vertical"
+		    android:background="@drawable/des_back"
+		    android:padding="20dp"
+		    android:visibility="gone" >
+    
+    
+    
+         <RelativeLayout 
+             android:id="@+id/RelativeText"
+             android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:paddingBottom="20dp" >
+         
+     <TextView
+         android:id="@+id/ObraName"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#ffffff"
+         android:text="aaaaaaaaaa"
+         
+          />
+     
+     <TextView
+         android:id="@+id/ArtistName"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/ObraName"
+         android:textColor="#ffffff"
+         android:text="bbbbbbbb"
+       
+         
+          />
+      <TextView
+         android:id="@+id/Size"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/ArtistName"
+         android:layout_toRightOf="@+id/ArtistName"
+         android:textColor="#ffffff"
+         android:text="cccccccc"
+          />
+     
+     </RelativeLayout>
+     
+         <ImageView 
+             android:id="@+id/dividerImg"
+             android:layout_width="fill_parent"
+         	 android:layout_height="wrap_content"
+         	 android:src="@drawable/divider"
+             />
+     
+     <ScrollView 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="20dp"
+         android:layout_weight="1"
+         >    
+     <TextView
+         android:id="@+id/Obra_description"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="#ffffff"
+         
+          />
+     </ScrollView>
+     
+     </LinearLayout>
+
+     <ImageView
+         android:id="@+id/imageClose"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="20dp"
+         android:layout_marginRight="20dp"
+         android:src="@drawable/closeee" />
+    
+</RelativeLayout>

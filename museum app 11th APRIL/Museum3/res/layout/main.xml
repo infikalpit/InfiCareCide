@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+    
+   
+ <TableLayout android:layout_width="fill_parent"
+    android:layout_margin="0dip"
+    
+   
+    android:layout_gravity="center"
+    android:background="@layout/myshape1"
+    android:layout_height="wrap_content">
+    
+    
+    <TableRow android:padding="0dip" >
+    <TextView
+        android:layout_width="wrap_content"
+        
+        
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+         />
+    
+    <ImageView 
+        android:id="@+id/ImageView"
+        android:src="@drawable/logo"
+        android:layout_marginLeft="15sp"
+        android:layout_marginBottom="5sp"  />
+      
+        
+        
+      
+    </TableRow>
+    
+    
+    
+    
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <com.example.museum3.WheelView
+            android:id="@+id/p1"
+            android:layout_height="150dip"
+            android:layout_width="150dip"
+            android:layout_gravity="center_horizontal" />
+       
+    </LinearLayout>
+
+
+ 
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/myshape1" >
+   
+       
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        
+        
+         />
+    
+    
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+
